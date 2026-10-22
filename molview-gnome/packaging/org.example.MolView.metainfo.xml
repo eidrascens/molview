@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.example.MolView</id>
+  <name>MolView GNOME</name>
+  <summary>Inspect macromolecular structures in a GNOME-native interface</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <description>
+    <p>MolView GNOME is a GTK4/libadwaita proof of concept that uses Mol* for macromolecular rendering. It provides protein sequence, ligand, residue and geometric binding-pocket inspection.</p>
+  </description>
+  <launchable type="desktop-id">org.example.MolView.desktop</launchable>
+  <url type="homepage">https://molstar.org/</url>
+  <content_rating type="oars-1.1"/>
+</component>

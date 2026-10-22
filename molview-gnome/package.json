@@ -1,0 +1,16 @@
+{
+  "name": "molview-gnome-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Mol* frontend bundle for a GTK4/libadwaita protein viewer",
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "dependencies": {
+    "molstar": "5.13.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.5",
+    "typescript": "5.8.3"
+  }
+}

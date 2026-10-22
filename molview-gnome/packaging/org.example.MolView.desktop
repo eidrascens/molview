@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=MolView GNOME
+Comment=Inspect macromolecular structures
+Exec=molview-gnome %f
+TryExec=molview-gnome
+Terminal=false
+Type=Application
+Categories=Science;Education;Biology;Chemistry;
+MimeType=chemical/x-pdb;chemical/x-mmcif;chemical/x-cif;
+StartupNotify=true

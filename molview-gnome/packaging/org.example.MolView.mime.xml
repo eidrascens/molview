@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+  <mime-type type="chemical/x-pdb">
+    <comment>Protein Data Bank structure</comment>
+    <glob pattern="*.pdb" weight="90"/>
+    <glob pattern="*.ent" weight="80"/>
+    <magic priority="80">
+      <match type="string" value="HEADER" offset="0"/>
+      <match type="string" value="ATOM  " offset="0"/>
+      <match type="string" value="HETATM" offset="0"/>
+      <match type="string" value="MODEL " offset="0"/>
+      <match type="string" value="TITLE " offset="0"/>
+      <match type="string" value="CRYST1" offset="0"/>
+      <match type="string" value="REMARK" offset="0"/>
+      <match type="string" value="SEQRES" offset="0"/>
+      <match type="string" value="COMPND" offset="0"/>
+    </magic>
+  </mime-type>
+  <mime-type type="chemical/x-mmcif">
+    <comment>Macromolecular Crystallographic Information File</comment>
+    <glob pattern="*.mmcif" weight="90"/>
+    <magic priority="70">
+      <match type="string" value="data_" offset="0"/>
+    </magic>
+  </mime-type>
+  <mime-type type="chemical/x-cif">
+    <comment>Crystallographic Information File</comment>
+    <glob pattern="*.cif" weight="80"/>
+    <magic priority="70">
+      <match type="string" value="data_" offset="0"/>
+    </magic>
+  </mime-type>
+</mime-info>
